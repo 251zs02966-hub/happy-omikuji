@@ -1,0 +1,71 @@
+/* 全体の背景：赤と金のグラデーション */
+body {
+  background: radial-gradient(circle, #ff0000, #b30000); /* 真っ赤！ */
+  color: #fff100; /* 文字は金ピカな黄色 */
+  text-align: center;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+/* 特大の見出し */
+h1 {
+  font-size: 3rem;
+  color: #fff100;
+  text-shadow: 3px 3px 0 #000, 6px 6px 0 #ff0000; /* 文字に厚みと影を */
+  border: 5px double #fff100; /* 金色の二重線 */
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* 入力欄 */
+input {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #fff100;
+  background-color: #fff;
+  color: #333;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* 派手なボタン */
+button {
+  display: block;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px 40px;
+  background: linear-gradient(45deg, #fff100, #ffcc00); /* 金色の輝き */
+  color: #ff0000; /* 文字は赤 */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 0 #b38f00; /* 立体的なボタン */
+  transition: 0.1s;
+}
+
+button:active {
+  box-shadow: 0 2px 0 #b38f00;
+  transform: translateY(8px);
+}
+
+/* 結果表示エリア：ここが特大！ */
+#result-area {
+  margin-top: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff100;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 100px;
+}
+
+/* ツイートボタンエリア */
+#tweet-area {
+  margin-top: 20px;
+}
